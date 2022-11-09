@@ -4,7 +4,7 @@
   "description": "node express testing",
   "main": "app.js",
   "engines": {
-    "node": "12.22.9"
+    "node": "19.0.1"
   },
   "scripts": {
     "start": "node app.js",
