@@ -1,9 +1,9 @@
 {
-  "name": "backend",
+  "name": "api-ufc",
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "12.22.9"
   },
   "license": "ISC",
   "scripts": {
