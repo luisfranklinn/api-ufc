@@ -1,15 +1,17 @@
 {
   "name": "api-ufc",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "node express testing",
+  "main": "app.js",
   "engines": {
     "node": "12.22.9"
   },
-  "license": "ISC",
   "scripts": {
-    "node": "node app.js",
-    "dev": "nodemon src/server.js"
+    "start": "node app.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.7.2",
