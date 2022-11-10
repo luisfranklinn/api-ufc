@@ -2,7 +2,7 @@
   "name": "api-ufc",
   "version": "1.0.0",
   "description": "node express testing",
-  "main": "app.js",
+  "main": "./app.js",
   "engines": {
     "node": "16.x"
   },
