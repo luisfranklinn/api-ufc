@@ -1,2 +1,11 @@
-/node_modules/
-.env
+# Logs
+logs
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Lockfiles
+package-lock.json
+yarn.lock
