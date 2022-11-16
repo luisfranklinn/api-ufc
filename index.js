@@ -6,7 +6,9 @@ const config = {
     port: process.env.PORT || 3000,
 }
 
-
+app.get('/', (req, res) => {
+    res.send('API de Acessos das Residências da Universidade Federal do Ceará');
+})
 
 class App {
     constructor() {
