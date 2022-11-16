@@ -27,5 +27,5 @@ class App {
 }
 
 app.listen(config.port, () => {
-    console.log(`SIGAAPI serving on port ${config.port}`);
+    console.log(`Api das Residências ${config.port}`);
 });
