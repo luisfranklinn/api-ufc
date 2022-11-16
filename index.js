@@ -31,7 +31,7 @@ class App {
 }
 
 
-app.get('/', (req, res) => {
+app.get('', (req, res) => {
     res.send('API de Acessos das Residências da Universidade Federal do Ceará');
 })
 
