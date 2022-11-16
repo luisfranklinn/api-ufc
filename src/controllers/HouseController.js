@@ -1,8 +1,8 @@
 import House_Acess from '../models/House';
 
-class HouseController{
+class HouseController {
 
-  async store(req, res){
+  async store(req, res) {
     const { UID, student_name, date_time, acess_type } = req.body;
 
 
