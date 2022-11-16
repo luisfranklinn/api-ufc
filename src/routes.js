@@ -4,7 +4,7 @@ import HouseController from './controllers/HouseController';
 
 const routes = new Router();
 
-routes.post('/', HouseController.store);
+routes.post('/acesso', HouseController.store);
 
 
 export default routes;

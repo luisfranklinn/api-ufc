@@ -2,12 +2,12 @@
   "name": "api-ufc",
   "version": "1.0.0",
   "description": "node express testing",
-  "main": "src/server.js",
+  "main": "./zapp.js",
   "engines": {
     "node": "19.x"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "dev": "nodemon src/server.js"
   },
   "keywords": [],
