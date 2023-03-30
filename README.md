@@ -1,4 +1,4 @@
-<h1 aling="center"> API-UFC </h1>
+<h1 align="center"> API-UFC </h1>
 
 ## Utilidade
 
