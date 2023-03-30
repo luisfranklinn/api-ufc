@@ -8,7 +8,9 @@ import DBCM from './src/models/modelCards';
 const app = express();
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://marcosgabriel:mgmm4103@cluster0.7mnfxzs.mongodb.net/?retryWrites=true&w=majority',{
+const db_string = "";
+
+mongoose.connect(db_string,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
