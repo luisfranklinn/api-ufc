@@ -2,21 +2,22 @@
   "name": "api-ufc",
   "version": "1.0.0",
   "description": "node express testing",
-  "main": "./zapp.js",
+  "main": "./app.js",
   "engines": {
-    "node": "19.x"
+    "node": "16.x"
   },
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "mongoose": "^6.7.2",
     "multer": "^1.4.5-lts.1",
-    "nestfy": "^0.7.9",
     "nodemon": "^2.0.20",
-    "sucrase": "^3.28.0"
+    "sucrase": "^3.28.0",
+    "yarn": "^1.22.19"
   }
 }
